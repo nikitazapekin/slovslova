@@ -1,0 +1,31 @@
+body {
+
+    font-family: "Roboto", sans-serif, Castellar;
+    overflow-x: hidden;
+    background-image: url("http://pic.90sjimg.com/back_pic/u/00/00/68/62/s_1198_560661df97ea1.jpg");
+    background-attachment: fixed; /* Фон страницы фиксируется */
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: change-background 4s ease infinite;
+}
+p {
+    font-size:24px;
+}
+input {
+    font-size:24px;
+}
+.answers{
+    text-align: right;
+}
+.main {
+    text-align: center;
+}
+button {
+    font-size: 65%;
+    background-color: #f6ac4f;
+    transition: 3s;
+}
+button:hover {
+transform: scale(1.1);
+    background-color: #79fdde;
+}
